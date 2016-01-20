@@ -23,7 +23,7 @@ var distance            = 400000,
 
 function init() {
     camera = new THREE.PerspectiveCamera( 60, window.innerWidth / window.innerHeight, 100, 2000000 );
-    camera.position.set( 0, 100, 2000 );
+    camera.position.set( 0, -400, 2000 );
 
     scene = new THREE.Scene();
 
